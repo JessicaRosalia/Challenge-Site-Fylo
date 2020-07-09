@@ -33,6 +33,7 @@ p {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header {
@@ -56,6 +57,17 @@ header nav li {
 
 header nav li a {
     color: hsl(243, 87%, 12%);
+}
+
+header nav .menu-mobile{
+    display: none;
+}
+
+header nav .menu-mobile div{
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin:4px;
 }
 
 #get-started {
@@ -297,8 +309,7 @@ footer a {
     color: #fff;
 }
 
-footer .menu-footer ul,
-footer .menu-footer2 ul {
+footer .menu-footer ul{
     list-style: none;
     display:flex;
     align-items: baseline;
@@ -309,6 +320,9 @@ footer .menu-footer2 ul li {
     padding: 5px 100px;
 }
 
+footer .network{
+    display: flex;
+}
 footer .network img {
     width: 25px;
     margin-right: 5px;
