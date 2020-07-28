@@ -115,11 +115,6 @@
     header nav ul{
         display: none;
     }
-    /*
-    #share-files a {
-        width: 400px;
-    }
-    */
 
     #share-files .infos .text-info{
       width: 25rem;
@@ -141,6 +136,7 @@
     #share-files .infos .text-info h1{
         font-size:1.2em;
         margin-bottom: 15px;
+        line-height: 1em;
     }
     #share-files .infos .text-info p{
         font-size:0.9em;
