@@ -4,7 +4,9 @@
     border: 0;
     box-sizing: border-box;
 }
-
+html,body{
+    font-size:16px;
+}
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -152,9 +154,14 @@ header nav .menu-mobile div{
     width: 170px;
 }
 
+#share-files .infos p.text{
+    margin-bottom:0;
+}
+/*
 #share-files .text {
     flex: 1;
 }
+*/
 
 #share-files span {
     background: url('../images/icon-arrow.svg') no-repeat;

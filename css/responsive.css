@@ -71,6 +71,7 @@
     }
     #acess .content .form-2 input,
     #acess .content .form-2 a {
+        font-size:0.8em;
         width: 90%;
     }
     /* rodape */
@@ -107,12 +108,62 @@
     header nav ul{
         display: none;
     }
+    /*
     #share-files a {
         width: 400px;
     }
+    */
 
+    #share-files .infos .text-info{
+      width: 25rem;
+      text-align: justify;
+    }
     #acess>.content {
         max-width: 400px;
+    }
+
+    #acess .content .form-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media(max-width:430px){
+    #share-files .infos .text-info h1{
+        font-size:1.2em;
+        margin-bottom: 15px;
+    }
+    #share-files .infos .text-info p{
+        font-size:0.9em;
+    }
+    #share-files .infos .text-info{
+        width: 16rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #share-files .infos .text-info a{
+        margin-top: 20px;
+    }
+    
+    #share-files .content .illustration-2 img {
+        width: 290px;
+    }
+
+    #acess .content .acess-content h2{
+        font-size:1.2em;
+    }
+    #acess .content .acess-content p {
+        font-size:0.9em;
+    }
+    #get-started .cont1 h1{
+        font-size:1.2em;
+        line-height: 1.4em;
+    }
+    #get-started .cont1 p {
+        font-size:0.9em;
     }
 
 }
