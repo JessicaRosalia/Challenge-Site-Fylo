@@ -98,6 +98,10 @@
     footer .content .nav-footer .network {
         margin: 0 auto;
     }
+    footer .content .nav-footer .network a{
+        margin:0 10px;
+
+    }
 }
 
 @media(max-width: 540px){
