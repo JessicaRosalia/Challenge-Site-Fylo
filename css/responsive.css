@@ -39,6 +39,9 @@
         width: 100%;
         margin-top: 15px;
     }
+    #get-started .cont1 .submit input+a {
+        margin-left:0;
+    }
     /* seg parte */
     #share-files .content {
         max-width: 550px;
