@@ -9,7 +9,7 @@
 <br>
   
 <p align="center"> Mobile version :iphone: </p> 
-<p align="center"> <img src="https://github.com/jessicarf18/challenge-Article-Preview/blob/master/assets/images-readme/gif-readme-2.gif" alt="Design preview"> </p>
+<p align="center"> <img src="https://github.com/jessicarf18/Challenge-Site-Fylo/blob/master/images-readme/home-mobile-page.png" alt="Design preview"> </p>
 <hr>
 <h2> Giving feedback :clipboard: </h2>
 <p>
